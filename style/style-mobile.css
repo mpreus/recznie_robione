@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
     color: #333;
     font-family: 'Tahoma', sans-serif; margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0;
     text-align: center;
 }
@@ -14,18 +14,18 @@ h2 {
     box-shadow: 5px 5px 3px #555;
     color: #4b5b48;
     font-family: 'Dancing Script', cursive;
-    font-size: 4em;
+    font-size: 2.5em;
     font-style: italic;
-    max-width: 1000px;
+    max-width: 400px;
     margin: 10px auto;
     padding-bottom: 10px;
 }
 
 .wrapper {
-    max-width: 1000px;
+    max-width: 400px;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 section#carousel > figure > img {
@@ -33,15 +33,13 @@ section#carousel > figure > img {
     margin: 0;
 }
 
-
-
 section#carousel > figure.visible > img {
     border-radius: 5px;
     box-shadow: 5px 5px 3px #555;
     display: block;
     margin: 0 auto;
     max-height: 600px;
-    max-width: 800px;
+    max-width: 320px;
     overflow: hidden;
     position: relative;
 }
@@ -52,7 +50,7 @@ section#carousel > figure > figcaption {
 
 section#carousel > figure.visible > figcaption {
     display: block;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: 1em;
     text-align: center;
 }
